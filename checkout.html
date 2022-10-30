@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkout</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">RATU BAKERY 🍰</a>
+
+        <nav class="navbar">
+          <a href="home.html">Beranda</a>
+          <a href="about.html">Tentang</a>
+          <a href="menu.html">Menu</a>
+          <a href="orders.html">Pesan</a>
+          <a href="contact.html">Kontak</a>
+        </nav>
+
+        <div class="icons">
+          <a href="search.html"><i class="fas fa-search"></i></a>
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <div class="profile">
+          <p class="name">Tiara Ekaputri</p>
+          <div class="flex">
+            <a href="profile.html" class="btn">profil</a>
+            <a href="#" class="delete-btn">logout</a>
+          </div>
+          <p class="account"><a href="login.html">login</a> / <a href="register.html">registrasi</a></p>
+        </div>
+      </section>
+    </header>
+
+    <div class="heading">
+      <h3>checkout</h3>
+      <p><a href="home.html">Beranda </a> <span> / checkout</span></p>
+    </div>
+
+    <section class="checkout">
+      <title>Ratu Bakery 🍰</title>
+
+      <form action="" method="post">
+        <div class="cart-items">
+          <h3>Item Keranjang</h3>
+          <p><span class="name">Roti Abon
+            03</span><span class="price">Rp.15000</span></p>
+          <p><span class="name">Pie Buah 03</span><span class="price">Rp.15000</span></p>
+          <p><span class="name">Dessert Enak 01</span><sJln. Matani Raya, Penfui Timurpan class="price">RRp.15000</span></p>
+          <p class="grand-total"><span class="name">total pembayaran :</span> <span class="price">Rp.45000</span></p>
+          <a href="cart.html" class="btn">Lihat Keranjang</a>
+        </div>
+        <div class="user-info">
+          <h3>infomu</h3>
+          <p><i class="fas fa-user"></i> <span>Tiara Ekaputri</span></p>
+          <p><i class="fas fa-phone"></i> <span>+6281930075773</span></p>
+          <p><i class="fas fa-envelope"></i> <span>tiaraekaputrihokeiba@gmail.com</span></p>
+          <a href="update_profile.html" class="btn">update info</a>
+          <h3>alamat pemesan</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i> <span></span></p>
+          <a href="update_address.html" class="btn">update alamat</a>
+          <select name="method" class="box" required>
+            <option value="" disabled selected>Pilih metode pembayaran</option>
+            <option value="bayar di tempat">bayar di tempat</option>
+            <option value="kartu kredit">kartu kredit</option>
+            <option value="DANA">DANA</option>
+            <option value="OVO">OVO</option>
+          </select>
+        </div>
+        <input type="submit" value="Pesan" name="order" class="btn order-btn" />
+      </form>
+    </section>
+
+  
+<footer class="footer">
+  <section class="box-container">
+    <div class="box">
+      <img src="images/email-icon.png" alt="" />
+      <h3>Email kami</h3>
+      <a href="mailto:ratubakeryoetalu@gmail.com">ratubakeryoetalu@gmail.com</a>
+      <a href="mailto:Idakorebima77@gmail.com">Idakorebima77@gmail.com</a>
+    </div>
+
+    <div class="box">
+      <img src="images/clock-icon.png" alt="" />
+      <h3>Buka</h3>
+      <p>00:07am - 18:10pm</p>
+      <p>20:07am - 00:10pm</p>
+    </div>
+
+    <div class="box">
+      <img src="images/map-icon.png" alt="" />
+      <h3>Alamat kami</h3>
+      <a href="https://www.google.co.id/maps/place/SEJAHTERA+LAND+OETALU/@-10.1715191,123.7024058,17z/data=!3m1!4b1!4m5!3m4!1s0x2c5685538f9ed5cf:0xd9b40ca3623c46f7!8m2!3d-10.1715191!4d123.7045945">Perumahan Sejathera Land Blok i No. 60, Oetalu - Penfui Timur</a>
+    </div>
+
+    <div class="box">
+      <img src="images/phone-icon.png" alt="" />
+      <h3>Kontak Person</h3>
+      <a href="tel:082144837090">+62-821-4483-7090</a>
+      <a href="tel:085237350063">+62-852-3735-0063</a>
+    </div>
+  </section>
+
+  <div class="credit">&copy; copyright @ 2022 by <span>Novem||Sita</span></div>
+</footer>
+
+<div class="loader">
+  <img src="images/loader.gif" alt="" />
+</div>
+
+<script src="js/script.js"></script>
+
+  </body>
+</html>
